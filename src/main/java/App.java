@@ -13,7 +13,6 @@ public class App {
         System.out.println(bean1.getMessage());
         System.out.println(bean1 == bean2);
 
-        // Получение и вывод бина Cat
         Cat cat1 = (Cat) applicationContext.getBean("cat");
         Cat cat2 = (Cat) applicationContext.getBean("cat");
 
